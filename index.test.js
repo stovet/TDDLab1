@@ -11,7 +11,7 @@ describe("to Pig Latin", function(){
         expect(translate("else")).toEqual("elseway");
     })
     test("word that starts with i", function(){
-        expect(translate("icky")).toEqual("ickyway")
+        expect(translate("icky")).toEqual("ickyway");
     })
     test("word that starts with o", function(){
         expect(translate("open")).toEqual("openway");
